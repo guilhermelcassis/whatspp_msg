@@ -4,11 +4,8 @@ import pywhatkit as kit
 import pandas as pd
 from models import Student
 import time
-from dotenv import load_dotenv
 import messages
 
-# Load environment variables from .env file
-load_dotenv()
 
 def send_whatsapp_message(phone, message):
     # Send a WhatsApp message using pywhatkit without the link box
